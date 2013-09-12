@@ -11,5 +11,6 @@
     </head>
     <body>
         @content
+		@helper.requireJs(core = routes.Assets.at("javascripts/require.js").url, module = routes.Assets.at("javascripts/main").url)
     </body>
 </html>

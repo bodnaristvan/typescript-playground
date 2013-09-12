@@ -1,0 +1,26 @@
+{
+	"name": "typescript-playground",
+	"description": "Typescript playground project",
+	"version": "0.1.0",
+	"homepage": "https://github.com/bodnaristvan/typescript-playground",
+	"author": {
+		"name": "Bodnar Istvan",
+		"url": "http://tech.gawker.com/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/git@github.com:bodnaristvan/typescript-playground.git"
+	},
+	"main": "index.js",
+	"engines": {
+		"node": "*"
+	},
+	"devDependencies": {
+		"grunt-typescript": "0.1.0",
+		"typescript": "0.9.1",
+		"grunt": "~0.4.1"
+	},
+	"keywords": [
+		"grunt"
+	]
+}
